@@ -1,0 +1,25 @@
+/*Cuando sass deje de compilar. Usar run task
+> porfavor@1.0.0 watch-css
+> nodemon -e scss -x "npm run build-css"*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import "nav";
+
+@import "footer";
+
+@import "nosotros";
+
+@import "contacto";
+
+@import "index";
+
+/*Productos*/
+/*.table__body {
+    background-color: ;
+}*/
+
+

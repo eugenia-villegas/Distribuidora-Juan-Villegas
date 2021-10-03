@@ -1,0 +1,43 @@
+/*Contacto*/
+.contacto {
+    padding: 8% 0 2% 0;
+    .contacto__label {
+        margin-top: 8px;
+    }
+    .input__label {
+        border: none;
+        border-bottom: solid #051f34c9;
+        width: 600px;
+    }
+    select { 
+        border: none;
+        border: solid #f3f9fbbe;
+    }
+    .formulario {
+        border: solid 10px #051f34c9;
+        background-color: #87c0cdab;
+        padding: 10px;
+        .formulario__titulo {
+            padding: 5px;
+        }
+        .formulario__parrafo {
+            font-size: 18px;
+        }
+        .contacto__select {
+            width: 600px;
+        }
+        .mensaje__form {
+            width: 600px;
+            border-bottom: solid #051f34c9;
+            background-color: #F3F9FB;
+        }
+        .mensaje__input {
+            padding-top: 5px;
+            margin-top: 8px;
+            background-color: #F3F9FB;
+            border: solid #051f34;
+            color: #051f34;
+        }
+    }
+}
+/*Fin Contacto*/

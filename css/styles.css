@@ -1,0 +1,177 @@
+/*Cuando sass deje de compilar. Usar run task
+> porfavor@1.0.0 watch-css
+> nodemon -e scss -x "npm run build-css"*/
+* {
+  margin: 0;
+  padding: 0; }
+
+.navegador {
+  background-color: #051f34;
+  font-size: 20px; }
+  .navegador .nav-link {
+    text-decoration: none;
+    color: #F3F9FB; }
+  .navegador .btn a {
+    text-decoration: none;
+    color: #F3F9FB;
+    font-size: 20px; }
+
+/*Responsive*/
+footer {
+  background-color: #051f34;
+  color: #f3f9fbc5;
+  font-size: 16px; }
+  footer .row-logo {
+    margin-top: 4px;
+    margin-left: 8px; }
+  footer .row-logo label {
+    margin-top: 4px;
+    margin-left: 8px; }
+  footer img {
+    width: 30px;
+    height: 30px; }
+
+/*Nosotros*/
+.historia__titulo {
+  padding-bottom: 0;
+  padding-top: 100px;
+  font-size: em; }
+
+.historia__parrafo {
+  border-radius: 5px 20px 5px;
+  border: solid 10px #87c0cdab;
+  font-size: 1.1em;
+  padding: 25px; }
+
+.historia__img {
+  width: 380px;
+  height: 200px;
+  margin-top: -10px;
+  margin-bottom: -10px; }
+
+.historia__parrafo2 {
+  border-radius: 5px 20px 5px;
+  border: solid 10px #87c0cdab;
+  font-size: 1.1em;
+  padding: 25px;
+  text-align: center; }
+
+.historia__logo {
+  width: 200px;
+  height: 50px;
+  margin-top: 5px; }
+
+/*Fin Nosotros*/
+/*Contacto*/
+.contacto {
+  padding: 8% 0 2% 0; }
+  .contacto .contacto__label {
+    margin-top: 8px; }
+  .contacto .input__label {
+    border: none;
+    border-bottom: solid #051f34c9;
+    width: 600px; }
+  .contacto select {
+    border: none;
+    border: solid #f3f9fbbe; }
+  .contacto .formulario {
+    border: solid 10px #051f34c9;
+    background-color: #87c0cdab;
+    padding: 10px; }
+    .contacto .formulario .formulario__titulo {
+      padding: 5px; }
+    .contacto .formulario .formulario__parrafo {
+      font-size: 18px; }
+    .contacto .formulario .contacto__select {
+      width: 600px; }
+    .contacto .formulario .mensaje__form {
+      width: 600px;
+      border-bottom: solid #051f34c9;
+      background-color: #F3F9FB; }
+    .contacto .formulario .mensaje__input {
+      padding-top: 5px;
+      margin-top: 8px;
+      background-color: #F3F9FB;
+      border: solid #051f34;
+      color: #051f34; }
+
+/*Fin Contacto*/
+/*Index*/
+.galeria {
+  display: grid;
+  grid-template-areas: "imagenA frase frase frase" "imagenB imagenC  imagenD ." ". . imagenF imagenG";
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 2px;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  padding: 8% 5% 0 5%; }
+  .galeria .galeria__imagen {
+    width: 290px;
+    height: 160px; }
+
+.galeria__imagenA {
+  grid-area: imagenA; }
+
+.galeria__imagenA img:hover {
+  transform: scale(1.2); }
+
+.galeria__frase {
+  grid-area: frase; }
+
+.galeria__frase--active {
+  animation-duration: 2s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.galeria__imagenB {
+  grid-area: imagenB; }
+
+.galeria__imagenB img:hover {
+  transform: scale(1.2); }
+
+.galeria__imagenC {
+  grid-area: imagenC; }
+
+.galeria__imagenC img:hover {
+  transform: scale(1.2); }
+
+.galeria__imagenD {
+  grid-area: imagenD; }
+
+.galeria__imagenD img:hover {
+  transform: scale(1.2); }
+
+.galeria__imagenF {
+  grid-area: imagenF; }
+
+.galeria__imagenF img:hover {
+  transform: scale(1.2); }
+
+.galeria__imagenG {
+  grid-area: imagenG; }
+
+.galeria__imagenG img:hover {
+  transform: scale(1.2); }
+
+.galeria__frase--active {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic; }
+
+/*Fin Index*/
+/*Responsive*/
+/*Productos*/
+/*.table__body {
+    background-color: ;
+}*/

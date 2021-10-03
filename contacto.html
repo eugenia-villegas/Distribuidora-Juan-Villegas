@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Para solicitar presupuesto, para más información y cualquier consultar no dudes en contactarnos.">
+    <meta name="keywords" content="marcapasos, valvulas, stent, neuroestimulador, implante medicos, ortopedia, implante cardiovascular">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Contacto</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg fixed-top navegador">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="img/logo2.png" width="380" height="75" class="d-inline-block align-middle mr-2">
+          </a>
+      
+          <div id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <class class="dropdown">
+                  <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a href="productos.html">Productos</a>
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <button class="dropdown-item" type="button">Marcapasos</button>
+                    <button class="dropdown-item" type="button">Valvulas</button>
+                    <button class="dropdown-item" type="button">Stent</button>
+                  </div>
+                </class>
+              </li>
+              <li class="nav-item">
+                <a href="nosotros.html" class="nav-link">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a href="contacto.html" class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <section class="container contacto"><!--Bloque2-->
+            <form action="contacto.html" method="GET" class="formulario">
+            <div class="row">
+            
+            <h1 class="formulario__titulo text-center">Contactanos!</h1>
+            <p class="formulario__parrafo text-center">
+            Si necesitas un presupuesto o tenes alguna duda,
+            completá el siguiente formulario y nos pondremos en contacto con vos.
+            </p>
+            </div>
+            <div class="row">
+            <div  class="col">
+            <div>
+                <label for="nombre" class="contacto__label">Tu nombre</label>
+                <input type="text" class="form-control input__label" placeholder="Nombre y Apellido">
+            </div>
+            <div>
+                <label for="celular" class="contacto__label">Tu celular</label>
+                <input type="number" class="form-control input__label" placeholder="Tu celular">
+            </div>
+            <div>
+                <label for="nombreMedico" class="contacto__label">El nombre de tu medico</label>
+                <input type="text" class="form-control input__label" placeholder="Nombre y Apellido de tu medico">
+            </div>
+            <div>
+                <label for="provincia" class="form-label">Provincia</label>
+                <select class="form-select contacto__select">
+                  <option selected value="Mendoza">Mendoza</option>
+                  <option value="San Juan">San Juan</option>
+                  <option value="San Luis">San Luis</option>
+                  <option value="Mendoza">Otro</option>
+                </select>
+            </div> 
+            <div>
+                <label for="cobertura" class="form-label">Cobertura Medica</label>
+                <select class="form-select contacto__select">
+                  <option selected value="Particular">Particular</option>
+                  <option value="Estado">Obra Social Estatal</option>
+                  <option value="Privada">Obra Social Privada</option>
+                </select>
+            </div>   
+            </div><!--Fin column-->
+            <div class="col">
+            <div class="form-group">
+                <label for="label" for="mensaje" class="mensaje">Tu mensaje</label><!--Bloque2-->
+                <textarea name="mensaje" class="form-control mensaje__form" cols="30" rows="10" placeholder="Escribe aca tu mensaje"></textarea>
+                <input class="mensaje__input btn btn-primary" type="submit" value="Enviar formulario"/>
+            </div>
+            </div>
+            </form>
+            </div><!--Fin row-->
+      
+    </section>
+
+    <footer class="text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+            <div class="row-logo"><img src="img/homepin.png"><label>Rioja 788, Ciudad.
+            Mendoza, Argentina.</label></div>
+            <div class="row-logo"><img src="img/reloj.png"><label>Lunes a Viernes de 8hs a 16hs.</label></div>
+            </div>  
+          
+            <div class="col-md-6">
+            <div class="row-logo"><img src="img/phone.png"><label>Tel/Fax: (0261) 4239983</label></div>
+            <div class="row-logo"><img src="img/wsp.png"><label>261 6790685</label></div>
+            <div class="row-logo"><img src="img/gmail.png"><label>distjvillegas@gmail.com</label></div>
+            </div>
+        </div>
+        </div>
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+
+</body>
+</html>
