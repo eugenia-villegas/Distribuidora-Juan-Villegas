@@ -18,8 +18,16 @@
 @import "index";
 
 /*Productos*/
-/*.table__body {
-    background-color: ;
-}*/
+.producto__titulo {
+    padding-top: 2%;
+}
+.productos__img {
+    border-radius: 5px 20px 5px;
+    border: solid 5px #87c0cdab;
+}
+.productos__img--active {
+    padding-top: 5%;
+}
+
 
 
