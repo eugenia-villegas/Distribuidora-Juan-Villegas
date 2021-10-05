@@ -32,11 +32,6 @@ footer {
     height: 30px; }
 
 /*Nosotros*/
-.historia__titulo {
-  padding-bottom: 0;
-  padding-top: 100px;
-  font-size: em; }
-
 .historia__parrafo {
   border-radius: 5px 20px 5px;
   border: solid 10px #87c0cdab;
@@ -44,8 +39,8 @@ footer {
   padding: 25px; }
 
 .historia__img {
-  width: 380px;
-  height: 200px;
+  width: 85%;
+  height: 60%;
   margin-top: -10px;
   margin-bottom: -10px; }
 
@@ -112,7 +107,7 @@ footer {
   justify-items: center;
   justify-content: center;
   align-content: center;
-  padding: 8% 5% 0 5%; }
+  padding: 2% 5% 0 5%; }
   .galeria .galeria__imagen {
     width: 290px;
     height: 160px; }
