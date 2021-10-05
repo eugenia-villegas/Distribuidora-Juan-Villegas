@@ -1,6 +1,6 @@
 /*Contacto*/
 .contacto {
-    padding: 8% 0 2% 0;
+    padding: 2% 0 2% 0;
     .contacto__label {
         margin-top: 8px;
     }
@@ -20,14 +20,17 @@
         .formulario__titulo {
             padding: 5px;
         }
+        .input__label {
+            width: 100%;
+        }
         .formulario__parrafo {
             font-size: 18px;
         }
         .contacto__select {
-            width: 600px;
+            width: 100%;
         }
         .mensaje__form {
-            width: 600px;
+            width: 100%;
             border-bottom: solid #051f34c9;
             background-color: #F3F9FB;
         }
@@ -41,3 +44,4 @@
     }
 }
 /*Fin Contacto*/
+

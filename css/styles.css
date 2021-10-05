@@ -64,7 +64,7 @@ footer {
 /*Fin Nosotros*/
 /*Contacto*/
 .contacto {
-  padding: 8% 0 2% 0; }
+  padding: 2% 0 2% 0; }
   .contacto .contacto__label {
     margin-top: 8px; }
   .contacto .input__label {
@@ -80,12 +80,14 @@ footer {
     padding: 10px; }
     .contacto .formulario .formulario__titulo {
       padding: 5px; }
+    .contacto .formulario .input__label {
+      width: 100%; }
     .contacto .formulario .formulario__parrafo {
       font-size: 18px; }
     .contacto .formulario .contacto__select {
-      width: 600px; }
+      width: 100%; }
     .contacto .formulario .mensaje__form {
-      width: 600px;
+      width: 100%;
       border-bottom: solid #051f34c9;
       background-color: #F3F9FB; }
     .contacto .formulario .mensaje__input {
